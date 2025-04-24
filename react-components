@@ -1,0 +1,15 @@
+    /src/
+      /components/
+        Navbar.jsx
+        Hero.jsx
+        Services.jsx
+        Gallery.jsx
+        Cta.jsx
+        Footer.jsx
+      App.jsx
+      index.css
+      main.jsx
+    tailwind.config.js
+    package.json
+    vite.config.js
+    index.html
