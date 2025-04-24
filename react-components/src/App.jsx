@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Services />
       <Gallery />
-      <Cta />
+      <CTA />
       <Footer />
     </div>
   );
