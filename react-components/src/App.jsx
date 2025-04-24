@@ -1,11 +1,21 @@
 // react-components/src/App.jsx
 import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Gallery from "./components/Gallery";
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-center py-10">
-      <h1 className="text-4xl font-bold text-blue-600">Hello from React 🚀</h1>
-      <p className="mt-4 text-gray-600">You're running your React + Tailwind site locally!</p>
+    <div className="font-sans text-gray-800">
+      <Navbar />
+      <Hero />
+      <Services />
+      <Gallery />
+      <Cta />
+      <Footer />
     </div>
   );
 }
